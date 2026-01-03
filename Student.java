@@ -1,20 +1,11 @@
 package Week7;
 
 public class Student {
-	private String name;
-	private int age;
-	
-	public Student(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
-	
-	public String getName() {
-		return name;
-	}
+    String name;
+    int age;
 
-	public int getAge() {
-		return age;
-	}
-	
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
